@@ -5,7 +5,7 @@ const Canvas = require("canvas");
 const jimp = require("jimp");
 const moment = require('moment');
 const yt = require('ytdl-core');
-const prefix = '>'
+const prefix = 'w'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
